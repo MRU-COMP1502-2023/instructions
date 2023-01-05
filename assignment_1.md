@@ -1,5 +1,5 @@
 # Assignment 1
-Due: Feb 13
+Due: Feb 13 2023 at 11:59 pm
 
 Work with a partner
 
@@ -7,7 +7,7 @@ Work with a partner
 In this assignment you will implement a game called Punto Banco (explained later). Your software will also save stats and balances for each player, and allow a user to generate reports based on this data. New players will be given a starting balance at their first game, and returning players will continue with their previous balance.
 
 ## Requirements
-Your program must have the following features and specifications:
+Your project must have the following features and specifications:
 
 <details>
   <summary><b>Data Storage</b></summary>
@@ -66,7 +66,7 @@ Your program must have the following features and specifications:
 5. Both hands are scored and the highest-point-value wins (ties are possible).
 6. A successful bet on either the player or banker wins the bet amount. A successful bet on a tie wins 5-to-1 (5x the bet amount). An unsuccessful bet is lost (deducted from the player's balance)
 
-**Card Deck:** A fresh deck of 52 cards (represented as a software object) should be created and shuffled when the program starts. The same should be used (even across games) until it runs out of cards, at which point it should be reset (all 52 cards restored and shuffled).
+**Card Deck:** A fresh deck of 52 cards (represented as a software object) should be created and shuffled when the program starts. The same deck object should be used (even across games) until it runs out of cards, at which point it should be reset (all 52 cards restored and shuffled).
     
   </p>
 </details>
@@ -80,9 +80,11 @@ Your program must have the following features and specifications:
       * ![image](https://user-images.githubusercontent.com/8976705/210866542-f98e46ce-1186-4e80-bbc1-9de281011c24.png)
     * If the user is new, we create a new account with initial balance of $100
       * ![image](https://user-images.githubusercontent.com/8976705/210866609-77aa600b-7d5c-4930-9630-91f5a42a4c96.png)
+* If the player has a balance of 0, they cannot play and are returned to the main menu.
 * The user is then asked which outcome they would like to bet on, and the bet amount:
     * ![image](https://user-images.githubusercontent.com/8976705/210866697-cda9b378-e56d-45d4-bd19-5af7fe8efa82.png)
     * ![image](https://user-images.githubusercontent.com/8976705/210866784-32665d63-6a69-4491-bc5c-3da305cd3b16.png)
+* The player cannot bet more than their current balance.
 * The game then plays out, the result determined, and the player's balance is adjusted accordingly.
 * The player is asked if they would like to play again, or return to the main menu. If they choose to play again, they return to the betting menu.
 
@@ -95,3 +97,57 @@ Here are two sample outputs of the game:
 
   </p>
 </details>
+
+<details>
+  <summary><b>Automated Testing</b></summary>
+  <p>
+  
+We expect to see reasonable JUnit tests to ensure the behavior of the existing classes (Card, Deck, Player, …) is as expected.
+Fow example, we would expect your tests to:
+* Ensure you can create a card and get its suit, rank and correct string representation (especially for Jack, Queen, King, Ace)
+* Ensure you can create a hand of cards, add cards to it, and compute its score
+* Create a new deck of cards and shuffle it (and get a different arrangement of cards each time)
+  * Does the deck behave as expected when the last card is drawn?
+* Additionally, any public method you create which does not require user input to function should also have a JUnit test.
+
+  </p>
+</details>
+
+<details>
+  <summary><b>Documentation</b></summary>
+  <p>
+  
+  Javadoc files must be generated in the `doc` project folder.
+
+  </p>
+</details>
+
+
+## Starter code
+
+You have been provided a starter repository with the basic project structure and some of the classes' code. Complete the code to meet the requirements above. You can add new classes & code as necessary, but you must not change the basic structure. All classes and methods in the starter code must work as described in the starter code.
+
+## Team work
+* Before starting, understand the requirements and meet with your project partner to divide tasks equally. Assign each task to a team member in a planning document in your repository.
+*	Both team members must contribute to the git project. The contribution of each member must be visible in the git commit history.
+*	Both members of a team must be knowledgeable about the whole project. This must be evident during the assignment demo. Your instructor may ask questions or make requests of either team member.
+
+## Submission instructions
+* Push all git commits before the due date. The contribution of each team member must be visible in Git history. Paste the link to your github repo into the D2L assignment to finalize your submission.
+* You must demo your project to your instructor during a demonstration to be scheduled during tutorial/lab time. **This demo is mandatory. No demo = a grade of 0**
+
+## Grading
+The following items are prerequisite to having your project graded. Failure to satisfy any any of these points could result in a grade of zero.
+* Code must compile and run
+* Basic project structure follows starter code
+* Clearly marked document in repository outlines each team member's contribution
+
+Projects that satisfy the above criteria will be graded according to the following rubric:
+
+| Item                        | Points |
+| --------------------------- | ------ |
+| Program requirements met    | 20     |
+| Object-oriented structure   | 10     |
+| Documentation & comments    | 10     |
+| Unit testing                | 10     |
+| **TOTAL**                   | **50** |
