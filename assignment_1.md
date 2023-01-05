@@ -4,7 +4,7 @@ Due: Feb 13 2023 at 11:59 pm
 Work with a partner
 
 ## The Problem
-In this assignment you will implement a game called Punto Banco (explained later). Your software will also save stats and balances for each player, and allow a user to generate reports based on this data. New players will be given a starting balance at their first game, and returning players will continue with their previous balance.
+In this assignment you will implement a game called Punto Banco. Your software will also save stats and balances for each player, and allow a user to generate reports based on this data. New players will be given a starting balance at their first game, and returning players will continue with their previous balance.
 
 ## Requirements
 Your project must have the following features and specifications:
