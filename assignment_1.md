@@ -138,16 +138,17 @@ You have been provided a starter repository with the basic project structure and
 
 ## Grading
 The following items are prerequisite to having your project graded. Failure to satisfy any any of these points could result in a grade of zero.
-* Code must compile and run
+* Code must compile and run. Include a jar file in your finished project.
 * Basic project structure follows starter code
 * Clearly marked document in repository outlines each team member's contribution
+* Scheduled demo with instructor
 
 Projects that satisfy the above criteria will be graded according to the following rubric:
 
 | Item                        | Points |
 | --------------------------- | ------ |
-| Program requirements met    | 20     |
-| Object-oriented structure   | 10     |
-| Documentation & comments    | 10     |
-| Unit testing                | 10     |
+| **Program requirements** met (menus, game, reports work as expected)                                                              | 20     |
+| **Object-oriented structure** (public/private members, problem broken down into classes/methods, ArrayList used properly, etc.)   | 10     |
+| **Documentation & comments** (Javadoc, comments, appropriate/conventional names, etc)                                             | 10     |
+| **Unit testing** (tests work properly, good test coverage)                                                                        | 10     |
 | **TOTAL**                   | **50** |
