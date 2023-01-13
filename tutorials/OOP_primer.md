@@ -35,20 +35,6 @@ Here's the UML:
   </tr>
       </table>
 
-### `draw_card` function
-Copy the below `draw_card` function into your program. You will need to complete it so to returns a random Card instance. You will also need to `import random`. Note how `random.randint` and `random.choice` have been used to select a random value and suit. 
-```python
-def draw_card() -> Card:
-    """
-    Create and return a Card instance with random value and suit
-    Valid values range from 1-13
-    Valid suits are ♠♥♦♣
-    """
-    value = random.randint(1, 13)
-    suit = random.choice('♠♥♦♣')
-    # CREATE AND RETURN A CARD INSTANCE WITH THE VALUE AND SUIT
-```
-
 ### `Hand` class
 Create a class called `Hand` to represent a hand of cards. It has an attribute called `cards`, which is a list of `Card` objects.
 - Provide a constructor (`__init__` method) that accepts no parameters. It should set a data attribute called `cards` to an empty list.
@@ -154,5 +140,4 @@ for player_number in [1, 2]:
 
 ## Extra Bonus Challenges
 - Build some validation into the `Card` class' constructor, so that only valid cards can be created (for example, `Card(14, 'spoons')` should cause an error)
-- Make the attributes of `Card`, `Hand`, and `Deck` private, and provide accessor methods for them
 - In Blackjack, Jacks/Queens/Kings are all worth 10, and Aces are worth 1 *or* 11, whichever gives the most desireable score. Change the logic in `Hand.total()` to implement this Blackjack scoring.
