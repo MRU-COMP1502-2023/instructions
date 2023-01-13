@@ -21,14 +21,16 @@ Here's the UML:
     </tr>
     <tr>
       <td>
-        + suit: str <br> 
-        + value: int
+        - suit: str <br> 
+        - value: int
       </td>    
   </tr>
   <tr>
     <td>
       + __init__(value: int, suit: str) <br>
-      + __str__(self) : str
+      + __str__(self) : str <br>
+      + get_value(): int <br>
+      + get_suit(): str <br>
     </td>
   </tr>
       </table>
@@ -61,7 +63,7 @@ Here's the UML for the Hand class:
     </tr>
     <tr>
       <td>
-        + cards: list
+        - cards: list
       </td>    
   </tr>
   <tr>
@@ -88,7 +90,7 @@ Here's the UML diagram for the Hand class:
     </tr>
     <tr>
       <td>
-        + cards: list
+        - cards: list
       </td>    
   </tr>
   <tr>
