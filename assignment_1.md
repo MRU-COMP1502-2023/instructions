@@ -136,6 +136,11 @@ You have been provided a starter repository with the basic project structure and
 * Push all git commits before the due date. The contribution of each team member must be visible in Git history. Paste the link to your github repo into the D2L assignment to finalize your submission.
 * You must demo your project to your instructor during a demonstration to be scheduled during tutorial/lab time. **This demo is mandatory. No demo = a grade of 0**
 
+## Resources
+- Videos that show implementation of a similar project: [part1](https://www.loom.com/share/df2d09af32b9416c92400d4c9a94f83e), [part2](https://www.loom.com/share/16b29c94392e43df8a1bcc691a9a27ef), [part3](https://www.loom.com/share/8bfd9c43a9bf4ca5bb117fc41bb44c5d)
+- Video explanation of the card deck class [here](https://www.loom.com/share/e4db62652097405480c91c10db2f691a)
+- Video on how to check if a file already exists [here](https://www.loom.com/share/1efa8fc4b3b24640a99bd3015a24a154)
+
 ## Grading
 The following items are prerequisite to having your project graded. Failure to satisfy any any of these points could result in a grade of zero.
 * [ ] Code must compile and run. Include a jar file in your finished project.
