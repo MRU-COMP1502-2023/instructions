@@ -1,4 +1,4 @@
-# Classes Refresher: 
+# Classes Refresher
 
 <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Hand_holding_playing_cards-4530227761.jpg/320px-Hand_holding_playing_cards-4530227761.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Hand_holding_playing_cards-4530227761.jpg/320px-Hand_holding_playing_cards-4530227761.jpg" alt="HTML tutorial"></a>
 
