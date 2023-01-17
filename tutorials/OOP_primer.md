@@ -3,7 +3,7 @@
 <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Hand_holding_playing_cards-4530227761.jpg/320px-Hand_holding_playing_cards-4530227761.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Hand_holding_playing_cards-4530227761.jpg/320px-Hand_holding_playing_cards-4530227761.jpg" alt="HTML tutorial"></a>
 
 ## Introduction
-In this exercise you will use classes to create a simple 2-player card game similar to Blackjack. It's an OOP refresher in Python, but **if you're feeling confident try it in Java instead (read ahead in the lecture slides and web search as necessary.**
+In this exercise you will use classes to create a simple 2-player card game similar to Blackjack. It's an OOP refresher in Python, but **if you're feeling confident try it in Java instead (read ahead in the lecture slides and web search as necessary)**
 
 Work in small groups.
 
