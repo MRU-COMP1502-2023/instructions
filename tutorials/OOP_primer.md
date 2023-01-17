@@ -12,7 +12,7 @@ Work in small groups.
 Write the following classes. Test as you go:
 
 ### `Card` class
-Create a class called `Card` to represent a playing card from a standard 52-card deck. The card can have an integer value from 1 to 13 (i.e. Ace=1, Jack=11, Queen=12, King=13), and one of four suits (♠, ♥, ♦, ♣). Add a __str__ method that returns a text representation of the card (e.g. '3♣')
+Create a class called `Card` to represent a playing card from a standard 52-card deck. The card can have an integer value from 1 to 13 (i.e. Ace=1, Jack=11, Queen=12, King=13), and one of four suits (♠, ♥, ♦, ♣). Add a `__str__` method that returns a text representation of the card (e.g. '3♣')
 
 Here's the UML:
 <table>
