@@ -49,7 +49,7 @@ Here's the UML for the Hand class:
     </tr>
     <tr>
       <td>
-        - cards: list
+        - cards: list of Card objects
       </td>    
   </tr>
   <tr>
@@ -76,7 +76,7 @@ Here's the UML diagram for the Hand class:
     </tr>
     <tr>
       <td>
-        - cards: list
+        - cards: list of Card objects
       </td>    
   </tr>
   <tr>
