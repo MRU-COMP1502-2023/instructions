@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 2
 Due: Mar 13 2023 at 11:59 pm
 
 Work with a partner
@@ -32,7 +32,7 @@ Your project must have the following features and specifications:
   <summary><b>Data Storage</b></summary>
   <p>
   
-    blah blah blah
+    The database of toys should be saved to a file called "toys.txt" in the res/ folder. Each line in the file represents a different toy and each piece of information for a toy is separated by a semi-colon. Your program should read all the toys into a **single** ArrayList on startup, and save the (potentially modified) list of toys back to the file on exit.
     
     </p>
 </details>
@@ -45,7 +45,14 @@ Your project must have the following features and specifications:
     * Allows users to search for a toy by serial number (**SN**), **name**, or **type**. The program then shows matching products, along with current inventory counts for each. The customer can select one of the items to purchase **or** return to the search menu. Purchasing an item modifies the inventory count accordingly, and trying to purchase an item that is out-of-stock shows an error. The customer returns to the search menu after purchasing.
       * NOTE: searching by name returns all items containing the name (see sample runs below)
   * **Add a New Toy**
-    *
-    
+    * Allows user to add a new toy to the database. Each type of toy requires different information (see formatting section).
+      * the program should validate the serial number before using it
+      * the serial number must be unique
+  * **Remove a Toy**
+    * Allows user to remove a toy from the database. The program asks the user to enter the serial number, then shows the corresponding item and asks for confirmation before removing it.
+  * **Make a gift suggestion (OPTIONAL - WORTH BONUS MARKS!)** 
+      * Asks user for an age, type, or price range (the customer can leave 1-2 of these empty) and shows a list of item suggestions. The customer can then select an item from the list to purchase.
+  * **Save and Exit**
+    * Saves the database to the text file (in the appropriate format) and terminates the program.
     </p>
 </details>
