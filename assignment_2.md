@@ -32,7 +32,9 @@ Your project must have the following features and specifications:
   <summary><b>Data Storage</b></summary>
   <p>
 The database of toys should be saved to a file called "toys.txt" in the res/ folder. Each line in the file represents a different toy and each piece of information for a toy is separated by a semi-colon. Your program should read all the toys into a **single** ArrayList on startup, and save the (potentially modified) list of toys back to the file on exit.
-    </p>
+
+A sample toys.txt file is provided for you.
+</p>
 </details>
 
 <details>
