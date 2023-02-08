@@ -1,7 +1,9 @@
 # Assignment 1
 Due: Feb 13 2023 at 11:59 pm
 
-Work with a partner
+CLAIM TIME SLOT FOR YOUR DEMO HERE: https://docs.google.com/spreadsheets/d/1Ilf0Vhj3023EurNvUixVfy4Q-6xa8XcF5GCYuw6HQNw/edit?usp=sharing
+
+Work with a partner (recommended, but not mandatory)
 
 ## The Problem
 In this assignment you will implement a game called Punto Banco. Your software will also save stats and balances for each player, and allow a user to generate reports based on this data. New players will be given a starting balance at their first game, and returning players will continue with their previous balance.
