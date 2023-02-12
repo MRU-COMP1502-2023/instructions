@@ -4,7 +4,7 @@ Due: Mar 13 2023 at 11:59 pm
 Work with a partner
 
 ## The Problem
-In this assignment you will write software to for a toy store. Your program will allow users to find, purchase, and list toys, as well as add and remove toys from the database. You will use object-orients concepts including **inheritance**, **abstraction**, and **interfaces**.
+In this assignment you will write software for a toy store. Your program will allow users to find, purchase, and list toys, as well as add and remove toys from the database. You will use object-oriented concepts including **inheritance**, **abstraction**, and **interfaces**.
 
 ## Requirements
 Your project must have the following features and specifications:
@@ -31,7 +31,7 @@ Your project must have the following features and specifications:
 <details>
   <summary><b>Data Storage</b></summary>
   <p>
-The database of toys should be saved to a file called "toys.txt" in the res/ folder. Each line in the file represents a different toy and each piece of information for a toy is separated by a semi-colon. Your program should read all the toys into a **single** ArrayList on startup, and save the (potentially modified) list of toys back to the file on exit.
+The database of toys **must** be saved to a file called "toys.txt" in the res/ folder. Each line in the file represents a different toy and each piece of information for a toy is separated by a semi-colon (i.e. ';'). Your program should read all the toys into a **single** ArrayList on startup, and save the (potentially modified) list of toys back to the file on exit.
 
 A sample toys.txt file is provided for you.
 </p>
