@@ -115,7 +115,7 @@ Note that all menus should be case in-sensitive, and validate user input.
 <details>
   <summary><b>Testing</b></summary>
   <p>
-We expect to see reasonable JUnit tests written to ensure that the behavior of the existing classes (Animal, BoardGame, Figure, …)
+We expect to see reasonable JUnit tests for your project.
     </p>
 </details>
 
