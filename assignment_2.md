@@ -3,10 +3,8 @@ Due: Mar 13 2023 at 11:59 pm
 
 Work with a partner (recommended, but not mandatory)
 
-```diff
-- NOTE: Assignment 3 builds on assignment 2 (you will use your assignment 2 code as a starting point for assignment 3). Take the time to nail assignment 2, so that you're set up for success in assignment 3!
-```
-
+> __Warning__
+> Assignment 3 builds on assignment 2 (you will use your assignment 2 code as a starting point for assignment 3). Take the time to nail assignment 2, so that you're set up for success in assignment 3!
 
 ## The Problem
 In this assignment you will write software for a toy store. Your program will allow users to find, purchase, and list toys, as well as add and remove toys from the database. You will use object-oriented concepts including **inheritance**, **abstraction**, and **interfaces**.
