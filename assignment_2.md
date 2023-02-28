@@ -188,6 +188,9 @@ The program should throw (custom) exceptions if:
 * Push all git commits before the due date. The contribution of each team member must be visible in Git history. Paste the link to your github repo into the D2L assignment to finalize your submission.
 * You must demo your project to your instructor during a demonstration to be scheduled during tutorial/lab time. **This demo is mandatory. No demo = a grade of 0**
 
+## Resources
+* Video demonstrating inheritance: https://www.loom.com/share/249200179aa349febd63b05108b90cb4
+
 ## Grading
 The following items are prerequisite to having your project graded. Failure to satisfy any any of these points could result in a grade of zero.
 * [ ] Code must compile and run. Include a jar file in your finished project.
