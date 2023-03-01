@@ -1,6 +1,8 @@
 # Assignment 2
 Due: Mar 13 2023 at 11:59 pm
 
+Use Java 11
+
 Work with a partner (recommended, but not mandatory)
 
 > __Warning__
