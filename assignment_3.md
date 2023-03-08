@@ -7,7 +7,7 @@ Work with a partner (recommended, but not mandatory)
 
 
 ## The Problem
-In this assignment you will use JavaFX to create a graphical user interface for the toy store software you wrote in [assignment 2](https://github.com/MRU-COMP1502-2023/instructions/blob/main/assignment_2.md). This means you'll primarily be replacing the *view* components of your assignment 2 project. Some corresponding changes will be needed in the *controller* component too (the severity of these changes will depend partly on your attention to modularity and object-oriented design during assignment 2 :smirk:)
+In this assignment you will use JavaFX to create a graphical user interface for the toy store software you wrote in [assignment 2](https://github.com/MRU-COMP1502-2023/instructions/blob/main/assignment_2.md). This means you'll primarily be replacing the *view* components of your assignment 2 project with graphical interfaces. Some corresponding changes will be needed in the *controller* components too (the severity of these changes will depend partly on your attention to modularity and object-oriented design during assignment 2 :smirk:)
 
 ## Requirements
 Your project must have the following features and specifications:
@@ -35,7 +35,7 @@ Your project must have the following features and specifications:
 <details>
   <summary><b>Exceptions</b></summary>
   <p>
-The program should throw (custom) exceptions if:
+The program should still throw the custom exceptions you implemented in Assignment 2:
     
   * The input price is negative when the user creates a new toy
   * The minimum number of players is greater than the maximum, when adding a new board game
@@ -67,7 +67,7 @@ We expect to see reasonable JUnit tests for your project. Isolate some of the ke
 
 
 ## Team work
-* Before starting, understand the requirements and meet with your project partner to divide tasks equally. Assign each task to a team member in a planning document in your repository (a readme file would be a good place).
+* Before starting, understand the requirements and meet with your project partner to divide tasks equally. Describe each team member's contributions in your readme file.
 *	Both team members must contribute to the git project. The contribution of each member must be visible in the git commit history.
 *	Both members of a team must be knowledgeable about the whole project. This must be evident during the assignment demo. Your instructor may ask questions or make requests of either team member.
 
