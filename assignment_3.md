@@ -1,7 +1,7 @@
 # Assignment 3
-Due: Mar 13 2023 at 11:59 pm
+Due: Apr 3 2023 at 11:59 pm
 
-Use JDK 1.8x
+Use JDK 11
 
 Work with a partner (recommended, but not mandatory)
 
@@ -45,7 +45,7 @@ The program should still throw the custom exceptions you implemented in Assignme
 <details>
   <summary><b>Testing</b></summary>
   <p>
-We expect to see reasonable JUnit tests for your project. Isolate some of the key functions and write tests for them that cover all possible situations.
+We expect to see *further* JUnit tests for your project when compared to the reasonable tests implemented for Assignment 2. Isolate some of the key functions and write tests for them that cover all possible situations.
     </p>
 </details>
 
