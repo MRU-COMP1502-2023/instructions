@@ -1,7 +1,7 @@
 # Assignment 3
 Due: Mar 13 2023 at 11:59 pm
 
-Use Java 11
+Use JDK 1.8x
 
 Work with a partner (recommended, but not mandatory)
 
@@ -52,7 +52,7 @@ We expect to see reasonable JUnit tests for your project. Isolate some of the ke
 <details>
   <summary><b>GUI components</b></summary>
   
-  The exact layout is up to you, but at a minimum your GUI must have the components shown in these sample screenshots. 
+  The exact layout is up to you, but at a minimum your GUI must have the components shown in these sample screenshots.
   
   <p>
 
@@ -64,3 +64,29 @@ We expect to see reasonable JUnit tests for your project. Isolate some of the ke
   
   </p>
 </details>
+
+
+## Team work
+* Before starting, understand the requirements and meet with your project partner to divide tasks equally. Assign each task to a team member in a planning document in your repository (a readme file would be a good place).
+*	Both team members must contribute to the git project. The contribution of each member must be visible in the git commit history.
+*	Both members of a team must be knowledgeable about the whole project. This must be evident during the assignment demo. Your instructor may ask questions or make requests of either team member.
+
+## Submission instructions
+* Push all git commits before the due date. The contribution of each team member must be visible in Git history. Paste the link to your github repo into the D2L assignment to finalize your submission.
+* You must demo your project to your instructor during a demonstration to be scheduled during tutorial/lab time. **This demo is mandatory. No demo = a grade of 0**
+
+## Grading
+The following items are prerequisite to having your project graded. Failure to satisfy any any of these points could result in a grade of zero.
+* [ ] Code must compile and run. Include a jar file in your finished project.
+* [ ] Basic project structure follows the folder structure outlined above
+* [ ] Readme file in repository outlines each team member's contribution
+* [ ] Demo with instructor
+
+Projects that satisfy the above criteria will be graded according to the following rubric:
+
+| Item                        | Points |
+| --------------------------- | ------ |
+| **Program requirements** met (Search/Add/Remove tabs work as expected, exceptions, inputs validated, etc)                                                              | 20     |
+| **Object-oriented structure** (Problem broken down into classes/methods. Correct use of Events)                  | 10     |
+| **Documentation & comments** (Javadoc, comments, appropriate/conventional names, etc)                                             | 10     |
+| **Unit testing** (tests work properly, good test coverage)                                                                        | 10     |
