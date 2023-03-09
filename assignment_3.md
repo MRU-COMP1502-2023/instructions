@@ -50,6 +50,13 @@ We expect to see *further* JUnit tests for your project when compared to the rea
 </details>
 
 <details>
+  <summary><b>Logging</b></summary>
+  <p>
+The project should create and update a log file while the user is running the application.
+    </p>
+</details>
+
+<details>
   <summary><b>GUI components</b></summary>
   
   The exact layout is up to you, but at a minimum your GUI must have the components shown in these sample screenshots.
