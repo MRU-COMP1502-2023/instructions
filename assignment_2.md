@@ -102,7 +102,7 @@ Note that all menus should be case in-sensitive, and validate user input.
       * available-count: the number copies of this item currently in stock
       * age-appropriate: the suggested minimum age to use this item
       * number of players: a range, like 2-4 (note your program must store min and max players in separate properties
-      * designer(s): a comma-separated list of designers
+      * designer(s): a comma-separated list of designers (as a String)
     </p>
 </details>
 
