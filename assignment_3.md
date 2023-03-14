@@ -78,6 +78,10 @@ The project should create and update a log file while the user is running the ap
 *	Both team members must contribute to the git project. The contribution of each member must be visible in the git commit history.
 *	Both members of a team must be knowledgeable about the whole project. This must be evident during the assignment demo. Your instructor may ask questions or make requests of either team member.
 
+## Resources
+
+* Video on how to apply MVC on a FX project & ListView [here](https://www.loom.com/share/d0ebfa3d2298493fa4c3727c7d4d57f0)
+
 ## Submission instructions
 * Push all git commits before the due date. The contribution of each team member must be visible in Git history. Paste the link to your github repo into the D2L assignment to finalize your submission.
 * You must demo your project to your instructor during a demonstration to be scheduled during tutorial/lab time. **This demo is mandatory. No demo = a grade of 0**
