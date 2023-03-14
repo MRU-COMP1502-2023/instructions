@@ -45,7 +45,7 @@ The program should still throw the custom exceptions you implemented in Assignme
 <details>
   <summary><b>Testing</b></summary>
   <p>
-We expect to see *further* JUnit tests for your project when compared to the reasonable tests implemented for Assignment 2. Isolate some of the key functions and write tests for them that cover all possible situations.
+We expect to see *further* JUnit tests for your project when compared to the reasonable tests implemented for Assignment 2. Isolate some of the key functions and write tests for them that cover all possible situations. Go beyond testing getters/setters and test key operations that your program performs.
     </p>
 </details>
 
