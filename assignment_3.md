@@ -80,7 +80,7 @@ The project should create and update a log file while the user is running the ap
 
 ## Resources
 
-* Video on how to apply MVC on a FX project & ListView [here](https://www.loom.com/share/d0ebfa3d2298493fa4c3727c7d4d57f0)
+* Video on how to apply MVC on a FX project & ListView [here](https://www.loom.com/share/d0ebfa3d2298493fa4c3727c7d4d57f0). Main content starts around 7:00. The instructions before that relate to JavaFx project setup, but you may prefer the instructions in the course slides.
 
 ## Submission instructions
 * Push all git commits before the due date. The contribution of each team member must be visible in Git history. Paste the link to your github repo into the D2L assignment to finalize your submission.
